@@ -1,7 +1,7 @@
 <div class="position-absolute top-50 start-50 translate-middle">
-    <h1 class="d-inline">Lamp Control</h1>&nbsp;&nbsp;<span class="text-secondary fw-bold fs-6">By Misbach</span>
+    <h1 class="d-inline">Lamp Control</h1>&nbsp;&nbsp;<span class="text-secondary fw-bold fs-6">By {{ $name }}</span>
     <br><br>
-    <button class="btn fs-3 p-3 @if ($status == 1)
+    <button class="btn fw-medium fs-3 p-3 @if ($status == 1)
         btn-success
     @else
         btn-danger

@@ -7,6 +7,7 @@ use Livewire\Component;
 
 class LampComponent extends Component
 {
+    public $name = 'Misbach';
     public $status;
     public $statusProperty;
     public function render()
