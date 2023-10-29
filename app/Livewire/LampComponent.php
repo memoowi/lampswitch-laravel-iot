@@ -25,7 +25,7 @@ class LampComponent extends Component
     {
         $lamp = LampSwitch::where('id', 1)->first();
         $this->status = $lamp->is_active;
-        $this->statusProperty = $lamp->is_active ? 'On' : 'Off';
+        $this->statusProperty = $lamp->is_active ? 'Off' : 'On';
     }
     public function turnOn()
     {
